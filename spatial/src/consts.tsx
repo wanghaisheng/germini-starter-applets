@@ -55,9 +55,9 @@ export const defaultPromptParts = {
     "as a JSON list. Do not return masks. Limit to 25 items.",
   ],
   "3D bounding boxes": [
-    "Detect the 3D bounding boxes of",
+    "Output in json. Detect the 3D bounding boxes of",
     "items",
-    ', output no more than 10 items. Output a json list where each entry contains the object name in "label" and its 3D bounding box in "box_3d".',
+    ', output no more than 10 items. Return a list where each entry contains the object name in "label" and its 3D bounding box in "box_3d".',
   ],
   Points: [
     "Point to the",
